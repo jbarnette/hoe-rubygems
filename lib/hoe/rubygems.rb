@@ -4,12 +4,6 @@ class Hoe # :nodoc:
     # Duh.
     VERSION = "1.0.0"
 
-    attr_accessor :extra_gemspec_deps
-
-    def initialize_rubygems
-      @extra_gemspec_deps = []
-    end
-
     def define_rubygems_tasks
       gemspec = "#{spec.name}.gemspec"
       deps    = IO.read("Manifest.txt").split
