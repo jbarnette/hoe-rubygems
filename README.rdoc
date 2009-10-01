@@ -22,7 +22,7 @@ of your project.
 === Installing with a Prefix
 
 Developing with prefixed forks of gems can be really hard, since,
-e.g., a GitHub gem that installs as <tt>jbarnette-johnson</tt> via
+e.g., a gem that installs as <tt>jbarnette-johnson</tt> via
 GitHub's source will install as <tt>johnson</tt> from a local
 checkout. To install with a prefix, try:
 
